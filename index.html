@@ -2,63 +2,100 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Blagnac Ski Nautique Club</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blagnac Ski Nautique Club</title>
+
   <style>
     body {
-      font-family: Arial;
       margin: 0;
+      font-family: Arial, sans-serif;
       background: #0b1f3a;
       color: white;
       text-align: center;
     }
 
     header {
-      padding: 30px 10px;
+      padding: 30px 15px 10px;
     }
 
     h1 {
-      margin: 10px 0;
+      margin: 0;
+      font-size: 26px;
+    }
+
+    .subtitle {
+      opacity: 0.8;
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    .hero {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      margin-top: 15px;
+    }
+
+    .container {
+      padding: 20px 15px;
     }
 
     .btn {
       display: block;
-      margin: 15px auto;
-      padding: 15px;
-      width: 80%;
-      max-width: 300px;
-      background: #1e90ff;
-      color: white;
+      margin: 12px auto;
+      padding: 16px;
+      width: 90%;
+      max-width: 320px;
+      border-radius: 12px;
       text-decoration: none;
-      border-radius: 10px;
-      font-size: 18px;
+      font-size: 17px;
+      font-weight: bold;
+      color: white;
+      transition: 0.2s;
     }
 
     .btn:hover {
-      background: #0d6efd;
+      transform: scale(1.03);
     }
 
-    img {
-      width: 100%;
-      max-height: 250px;
-      object-fit: cover;
+    .facebook { background: #1877f2; }
+    .instagram { background: #e1306c; }
+    .whatsapp { background: #25d366; }
+    .reservation { background: #ffb000; color: black; }
+
+    footer {
+      margin-top: 25px;
+      font-size: 12px;
+      opacity: 0.6;
+      padding-bottom: 20px;
     }
   </style>
 </head>
 
 <body>
 
-<header>
-  <h1>🏄 Blagnac Ski Nautique Club</h1>
-  <p>Bienvenue sur le club</p>
-</header>
+  <header>
+    <h1>🏄 Blagnac Ski Nautique</h1>
+    <div class="subtitle">Club de ski nautique & wakeboard</div>
+  </header>
 
-<img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" alt="ski nautique">
+  <img class="hero" src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" alt="ski nautique">
 
-<a class="btn" href="LIEN_SUMUP" target="_blank">📅 Réserver une séance</a>
-<a class="btn" href="https://facebook.com" target="_blank">📱 Facebook</a>
-<a class="btn" href="https://instagram.com" target="_blank">📸 Instagram</a>
-<a class="btn" href="https://wa.me/33610569134" target="_blank">💬 WhatsApp</a>
+  <div class="container">
+
+    <a class="btn reservation" href="TON_LIEN_SUMUP" target="_blank">📅 Réserver une séance</a>
+
+    <a class="btn facebook" href="https://www.facebook.com/wakeandskiblagnac/" target="_blank">📘 Facebook</a>
+
+    <a class="btn instagram" href="https://www.instagram.com/blagnacskinautique/" target="_blank">📸 Instagram</a>
+
+    <a class="btn whatsapp" href="https://wa.me/33610569134" target="_blank">💬 WhatsApp</a>
+
+  </div>
+
+  <footer>
+    Blagnac Ski Nautique Club
+  </footer>
 
 </body>
 </html>
