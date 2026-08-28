@@ -74,6 +74,19 @@ h1 {
   z-index: 1;
 }
 
+.hero h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero h1 img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
 .container {
     padding: 20px 15px;
 }
