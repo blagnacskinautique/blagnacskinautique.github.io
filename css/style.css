@@ -92,7 +92,10 @@ h1 {
 }
 
 .btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
     margin: 12px auto;
     padding: 16px;
     width: 90%;
@@ -107,6 +110,13 @@ h1 {
 
 .btn:hover {
     transform: scale(1.03);
+}
+
+.btn img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin-right: 12px;
 }
 
 .facebook { background: #1877f2; }
